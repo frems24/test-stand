@@ -1,0 +1,807 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Channeled Message Handler</title>
+
+  
+  
+  <style type="text/css">
+<!--
+/***************************************************/
+/* MINIMAL STYLES */
+/* The following section defines styles that every HTML Help project should need. */
+
+/* Specifies white background color for page and font style for text. */
+body {background-color:#FFFFFF; font-family:Verdana, sans-serif; font-size:8pt; color: #000000;}
+
+/* Use P for normal paragraphs. */
+p { margin-top:6.00pt; margin-bottom:6.00pt; }
+
+br { font-size:4.00pt; }
+
+/* Use H1 for all topic headings. */
+h1 { margin-top:3.00pt; margin-bottom:3.00pt; font-size:150%; font-weight:bold; }
+
+/* Use H2 for second-level headings. */
+h2 { margin-top:9.00pt; margin-bottom:3.00pt; font-size:125%; font-weight:bold; }
+
+/* Use H3 for third-level headings. */
+h3 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold; }
+
+/* Use H4 for fourth-level headings. */
+h4 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold; }
+
+/* H5 and H6 have the same definition as H4 because you should not need this level of heading in one topic. If you need to use H5 or H6, consider breaking up your topic into more than one topic. */
+h5 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold; }
+h6 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold; }
+
+/* Deprecated. Use P for normal paragraphs. */
+p.Body { }
+
+/* Use the Anchor style class for graphic references on a line by themselves. */
+p.Anchor { font-size:125%; }
+
+/* Use the Indent style classes to indent a paragraph. If you need to indent text below a list item, use <br><br> to start the new paragraph within the same set of <li></li> tags. If you need to indent a list within another list, nest the indented list within the first list's set of <ol></ol> or <ul></ul> tags. */
+p.Indent1 { margin-left:12.00pt; margin-bottom:3.00pt; }
+p.Indent2 { margin-left:24.00pt; margin-bottom:3.00pt; }
+p.Indent3 { margin-left:36.00pt; margin-bottom:3.00pt; }
+p.Indent4 { margin-left:48.00pt; margin-bottom:3.00pt; }
+p.Indent5 { margin-left:60.00pt; margin-bottom:3.00pt; }
+
+/* Use the LI style for all list items. */
+li { margin-top:3.00pt; margin-bottom:3.00pt; }
+
+/* Use the OL style for numbered lists. You do not have to type the number for each list item in a numbered list. */
+ol { margin-left:22.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; list-style-type: decimal; }
+
+/* Use the OL style for numbered lists. Nested lists will use the bullet types according to the nesting scheme below */
+ol ol {list-style-type:lower-alpha}
+ol ol ol {list-style-type:decimal}
+ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+
+
+/* Use the EquationNum style class for numbered lists of equations. You do not have to type the number for each list item in a numbered list. */
+ol.EquationNum { margin-left:36.00pt; text-indent:0pt; list-style-type: decimal; }
+
+/* Use the List-abc style class for lettered lists. You do not have to type the letter for each list item in a lettered list. */
+ol.List-abc { margin-left:22.00pt; text-indent:0pt; list-style-type:lower-alpha; }
+
+/* Use the UL style for bulleted lists. You do not have to type the bullet for each list item in a bulleted list. */
+ul { margin-left:22.00pt; text-indent:0pt; margin-top:3.00pt; margin-bottom:3.00pt; list-style-type: disc; }
+
+/* Use the UL style for bulleted lists. Nested lists will use the bullet types according to the nesting scheme below. */
+ul ul {list-style-image: none;list-style-type: circle}
+ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul {list-style-image: none;list-style-type: circle}
+ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul {list-style-image: none;list-style-type: circle}
+ul ul ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul ul ul ul{list-style-image: none;list-style-type: circle}
+
+/* Use the List-Box style class for bulleted lists with boxes instead of bullets. You do not have to type the box for each list item in a box list. */
+ul.List-Box {list-style-image: none;list-style-type: square}
+
+table { font-size:8pt; }
+
+/* Use the Borderless style class for tables that do not need borders, such as for 2-column or 3-column lists with no headings. */
+table.Borderless { border:none; }
+
+/* Use the Bordered style class for tables that need borders. */
+table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+
+/* Use the TD style for table cells in Borderless or Borderless-Wide tables. */
+td { vertical-align:top; padding:3px; }
+
+/* Use the Bordered style class for table headings and cells in Bordered or Bordered-Wide tables. */
+.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; }
+
+/* Use the Icon style class for table cells that contain note, caution, warning, or tip icons, or LabVIEW datatype terminals. */
+td.Icon { width:40px; }
+
+/* Use the TH style for table heading cells in Borderless or Borderless-Wide tables. */
+th { font-weight:bold; padding:3px; }
+
+/* Use the Left-Align style class for table headings and cells that you want to left align instead of center align. */
+.Left-Align { text-align:left; }
+
+/***************************************************/
+/* CHARACTER FORMATS */
+/* The following section defines character formats that every HTML Help project should need. */
+
+/* CHARACTER FORMATS Updated to conform with the CSE HTML Validator Pro */
+/* The following section defines character formats that every HTML Help project should need. */
+
+/* Use the Dark-Red format for warnings or cautions. */
+.Dark-Red { color: #800000 }
+
+/* Use the Monospace format for code or syntax examples. */
+.Monospace { font-family: "Courier New",monospace; font-size: 100%; }
+
+/* Use the Monospace-Bold format for messages and responses that the computer automatically prints to the screen. */
+.Monospace-Bold { font-family: "Courier New",monospace; font-weight: bold; font-size: 100%; }
+
+/* Use the Monospace-Italic format to denote text that is a placeholder for a word or value that the user must supply. */
+.Monospace-Italic { font-family: "Courier New",monospace; font-style: italic; font-size: 100%; }
+
+/* small class */
+.smallFont { font-size:87.5%; }
+
+/* Bold class */
+.Bold { font-weight: bold; }
+
+/* Italic class */
+.Italic { font-style: italic; }
+
+/* Use the Platform format to denote a specific platform. */
+.Platform { color: #0000FF; font-weight: bold; }
+
+/* Use the Symbol format for characters not in the Verdana character set. Use this format sparingly. When possible, you should use the correct ASCII code for the symbol or use a graphic to recreate the symbol. */
+.Symbol { font-family: Symbol; }
+
+/* Use the Red-text format to call attention to text that needs information added or edited by techcomm */
+.Red-text {color: #FF0000;}
+
+/* Use the Green-Underline format for the green defintion in the conventions topic */
+.Green-Underline {color: #007700; text-decoration : underline;}
+
+/* Use the glossButton format for the glossary buttons used in the glossary topic */
+.glossButton { font-size:12px; color:black; }
+
+/* Use for text sections and hyphenated words that should not break at line wraps */
+.nobreak{white-space:nowrap}
+
+/* Use for template instructions. */
+.instructions{color:red; font-style:italic}
+
+/*Use for words and text sections that do not need to be localized */
+.DNL { }
+
+/* The following styles define the color of links. */
+a:link { color: #007700 }
+a:visited { color: #7F007F }
+a:link:hover { color: #FF0000 }
+a:link:active { color: #FF0000 }
+
+/***************************************************/
+/* Forms */
+
+form { margin-top:0pt; margin-bottom:3pt; color:black; }
+select { font-size:100%; color:black; }
+
+/*******************************************************/
+/* Margins */
+/* Use these styles for block-level elements inside tables cells or list items where you do not want extra padding at the top or bottom of a cell. */
+.noTopMargin { margin-top:0pt;}
+.noBottomMargin { margin-bottom:0pt;}
+
+/***************************************************/
+/* CODE STYLES */
+/* The following section defines styles that you need to format entire sections of code or syntax examples. If you have just a few words you need to format as a code or syntax example, use the Monospace character format. */
+
+p.Code { margin-top:3.00pt; margin-bottom:0.00pt; font-family: "Courier New",monospace; }
+p.Code1 { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family: "Courier New",monospace; }
+p.Code2 { margin-left:24.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family: "Courier New",monospace; }
+p.Code3 { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family: "Courier New",monospace; }
+-->
+  </style>
+  
+  <script type="text/javascript"> // define hyperlinks and function for launching a URL in a browser
+
+var L_walkthrough = "http://www.ni.com/video/2728/en";
+
+function WWW(url) 
+	{
+	var urlWindow;
+	urlWindow = window.open(url, "New", "directories=yes,location=yes,menubar=yes,resizable=yes,scrollbars=yes,status=yes,toolbar=yes");
+	}
+  </script>
+</head><body>
+<h1>Channeled Message Handler</h1>
+
+<p>The Channeled Message Handler (CMH) template facilitates multiple
+sections of code running in parallel and sending data between them.
+Each section of code represents a task, such as acquiring data, and is
+designed similarly to a state machine. Because of this design, you can
+divide each task into states.</p>
+
+<p>The CMH template is a version of the Producer/Consumer design
+pattern, where the user interface (producer) produces messages and the
+tasks (consumers) consume them. However, in the CMH template, you also
+can also have the consumer loop generate messages for itself.</p>
+
+<p>This template includes one producer loop and one consumer loop. You
+can <a href="#add_task">add consumer loops</a> as needed.</p>
+
+<p>This template is very similar to the Queued Message Handler, which
+uses queue refnums, an older G syntax still commonly in use. National
+Instruments finds that the channel syntax is easier to read and
+maintain for most users.<br>
+</p>
+
+<h2>System Requirements</h2>
+
+<p>LabVIEW Base, Full, or Professional Development System</p>
+
+<h2>Use Cases</h2>
+
+<p>The CMH template is useful for applications where multiple tasks
+occur in parallel, often at different rates. For example, consider an
+application that continuously acquires, logs, and displays two signals:
+an RS-232 signal and an analog signal. These signals occur at different
+rates, so the application must have two loops that run in parallel. In
+addition, each loop is divided into the following states:</p>
+
+<ul>
+
+  <li>Initialize the data acquisition hardware</li>
+  <li>Acquire data</li>
+  <li>Log the acquired data to disk</li>
+  <li>Display the acquired data in a waveform chart</li>
+  <li>Set the hardware to a safe state</li>
+  <li>Stop the data acquisition and shut down the hardware</li>
+</ul>
+
+<p>The application requires a responsive user interface; that is, users
+should be able to click buttons even while the application is executing
+another command. Therefore, the application requires a third parallel
+loop that continuously monitors the front panel for events, such as the
+following commands:</p>
+
+<ul>
+
+  <li>Start RS-232 acquisition</li>
+  <li>Stop RS-232 acquisition</li>
+  <li>Enable RS-232 logging</li>
+  <li>Disable RS-232 logging</li>
+  <li>Start analog data acquisition</li>
+  <li>Stop analog data acquisition</li>
+  <li>Enable analog data logging</li>
+  <li>Disable analog data logging</li>
+</ul>
+
+<p>The CMH template provides a starting point for writing this kind of
+application.</p>
+
+<h2>Overview</h2>
+
+<img src="loc_queued_message_handler.gif">
+<p>This template repeatedly executes the following steps:</p>
+
+<ol>
+
+  <li>A user interacts with the front panel, causing the Event
+structure in the Event Handling Loop (EHL) to produce a message.
+LabVIEW stores the message in a queue, represented by a messenger
+channel wire.<br>
+  </li>
+  <li>The Message Handling Loop (MHL) reads a message from the message
+queue, removing the message.</li>
+  <li>The
+message is a string that matches one of the subdiagrams of the Case
+structure in the MHL. Therefore, reading the message causes the
+corresponding subdiagram of the Case structure to execute. This
+subdiagram is called a <em>message diagram</em> because it corresponds
+to a message.</li>
+  <li>Optionally, the message diagram produces another message, storing
+it in the message queue.</li>
+</ol>
+
+<p>Notes:</p>
+
+<ul>
+
+  <li>The EHL is the producer loop. The MHL is the consumer loop.
+These loops run in parallel and are connected by the messenger channel,
+which facilitates communication between the loops.</li>
+  <li>The
+messenger channel queues messages for consumption. Because the EHL
+writes messages to this buffer and not directly to the MHL, the EHL can
+produce messages while the MHL is not consuming them. If you had
+multiple consumer loops, each consumer loop would have its own
+messenger channel wire.</li>
+  <li>Every iteration of the MHL reads the
+oldest message in the message queue and then executes the corresponding
+message diagram. Although the MHL primarily consumes messages, it also
+can produce them.</li>
+  <li>Each loop handles errors using a
+loop-specific error handler subVI. In this template, if EHL generates
+an error, LabVIEW displays an error message without stopping
+theapplication. If the MHL generates an error, LabVIEW displays an
+error message and stops the application. You may choose to change this
+behavior in your application. <br>
+  </li>
+  <li>Your application can have multiple MHLs. Each MHL
+corresponds to a task the application performs, such as acquiring or
+logging data.</li>
+  <li>Notice the <strong>UI Data</strong> cluster in
+the above diagram. This cluster is data that each message diagram in an
+MHL can access and modify. In this template, the cluster is defined as
+a typedef, UI Data.ctl.If you had multiple consumer loops, each
+consumer loop would have its own data typedef. <br>
+  </li>
+</ul>
+
+<h2>Running This Template</h2>
+
+<ol>
+
+  <li>In the <strong>Project Explorer</strong> window, open and run
+Main.vi.</li>
+  <li>Click the front panel controls and watch the <strong>Display</strong>
+indicator display messages.</li>
+</ol>
+
+<h2>Modifying this Template</h2>
+
+<h3>Determining Your Needs</h3>
+
+<p>The following table summarizes the design decisions you must make
+when modifying this template:</p>
+
+<table class="Bordered">
+
+  <tbody>
+    <tr class="Bordered">
+      <th class="Bordered">Design Decision</th>
+      <th class="Bordered">Example</th>
+      <th class="Bordered">Detailed Information</th>
+    </tr>
+    <tr class="Bordered">
+      <td class="Bordered">You need to determine how many MHLs to add.
+Each MHL defines a task that executes in parallel with other tasks.</td>
+      <td class="Bordered">You have an application that acquires data
+and, in parallel, logs this data to disk.<br>
+      <br>
+This application consists of two tasks: data acquisition and data
+logging. Therefore, you need two Message Handling Loops.
+      </td>
+      <td class="Bordered"><a href="#add_task">Creating a Message
+Handling Loop</a></td>
+    </tr>
+    <tr class="Bordered">
+      <td class="Bordered">For each MHL, you need to determine what
+message diagrams to add.<br>
+      <br>
+A
+message diagram is a subdiagram of the Case structure in an MHL. Each
+subdiagram corresponds to a state the task can be in; therefore, to
+determine the message diagrams to add, separate each task into states.
+      </td>
+      <td class="Bordered">You want to separate the data
+acquisition task into three states: Initialize, Acquire Data, and Exit.
+Therefore, create these message diagrams in the MHL that acquires data.<br>
+      <br>
+You
+want to separate the data logging task into three states: Initialize,
+Log, and Close. Therefore, create these message diagrams in the MHL
+that logs data.
+      </td>
+      <td class="Bordered"><a href="#add_diagram">Creating a Message
+Diagram</a></td>
+    </tr>
+    <tr class="Bordered">
+      <td class="Bordered">You must determine what data the message
+diagrams of an MHL need.</td>
+      <td class="Bordered">Each
+message diagram of the data acquisition MHL needs access to a hardware
+reference. The Initialize message diagram needs to open this reference,
+the Acquire Data diagram uses this reference to acquire data, and the
+Exit message diagram closes the reference.</td>
+      <td class="Bordered"><a href="#change_ui_data">Defining Data that
+a Message Handling Loop Needs</a></td>
+    </tr>
+    <tr class="Bordered">
+      <td class="Bordered">You
+need to determine when to execute each message diagram. A message
+diagram executes after its MHL receives the appropriate message.
+Therefore, you need to determine when to send each message to the MHL.
+You can send a message from a front panel control or from a message
+diagram.</td>
+      <td class="Bordered">You want to add a button that sends the
+Initialize message to the data acquisition MHL.<br>
+      <br>
+You then want the Initialize message diagram to send the Acquire Data
+message to the same MHL.
+      </td>
+      <td class="Bordered"><a href="#add_control">Adding a Control that
+Sends a Message to a Message Handling Loop</a> or <a href="#send_message">Sending a Message to a Message Handling Loop</a>,
+depending on whether you want a control to send the message.</td>
+    </tr>
+    <tr class="Bordered">
+      <td class="Bordered">You need to determine if you want to ignore
+any specific errors within the EHL or the MHL.</td>
+      <td class="Bordered">When reading messages from the message
+queue, you want to ignore network timeout errors.</td>
+      <td class="Bordered"><a href="#ignore_errors">Ignoring Errors in
+the Event Handling Loop and Message Handling Loop</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+<a name="add_task"></a>
+<h3>Creating a Message Handling Loop</h3>
+
+<p>A Message Handling Loop (MHL) represents a task the application can
+perform, such as acquiring data or logging data, in parallel with other
+tasks. Each MHL can be divided into sub-tasks that correspond to
+states. MHLs consist of the following components:</p>
+
+<ul>
+
+  <li>A message queue</li>
+  <li>A While Loop that reads messages from the message queue</li>
+  <li>A
+Case structure that contains a subdiagram, also known as a message
+diagram, for each possible message that can be read, where each message
+corresponds to a state of the task</li>
+  <li>(Optional) Data that each message diagram of the MHL can access</li>
+</ul>
+
+<p>Complete the following steps to add an MHL to Main.vi:</p>
+
+<ol>
+
+  <li>Select the existing Message Handling Loop, all of the nodes to
+the left of it, and the channel wire under it.</li>
+  <li>Ctrl+drag all of the selected items down to create a new loop.
+Your code will look like this:<br>
+    <img style="border: 1px solid ; width: 1134px; height: 481px;" alt="" src="loc_new_handling_loop.png"><br>
+  </li>
+  <li>In the True case of the outer case structure, select the code
+shown below and delete it.<br>
+    <img style="width: 446px; height: 109px;" alt="" src="loc_delete_stop_channel_in_new_loop.png"><br>
+This is because only one loop should raise the stop signal for the
+event loop, and the original MHL is already doing that. <br>
+  </li>
+  <li>Choose one:</li>
+  <ol>
+    <li>If the MHL needs access to data, create a new typedef that
+represents this data. Replace the copied "Data Cluster" terminal with a
+constant of your new typedef type.</li>
+    <li>Otherwise, delete the copied "Data Cluster" terminal, delete
+the shift register, and delete the broken wires in all the frames.<br>
+    </li>
+  </ol>
+  <li>Delete any frames of the Message Cases case structure that are
+not needed in your new loop.</li>
+  <li>In the original MHL loop, in the shutdown code, add a call to
+Message Queue.lvlib:Abort Message Queue.vi. Wire the output channel of
+that node to the broken channel wire under your new loop. Now when the
+main loop receives the Stop message, it will take care of stopping your
+secondary loop. <br>
+  </li>
+  
+  
+  <li>(Optional) Only do this if your new loop can be stopped on its
+own and needs to signal the rest of the application to also stop. Add
+to the Stop frame of your new loop a call to Message Queue.lvlib:Abort
+Message Queue.vi. Wire the output channel of this node to the pink
+channel wire of the original MHL. Now, when your new loop gets stopped,
+it will signal the original MHL to stop. <br>
+  </li>
+
+  <li><a href="#add_diagram">Add message diagrams</a>
+to the Case structure in the MHL. To minimize errors and unexpected
+behavior, ensure each MHL has the following message diagrams:
+    <ol>
+      <li>A message diagram that initializes the task; for
+example, this diagram could connect to a hardware device, open files
+for data logging, and so on.</li>
+      <li>A message diagram that <a href="#handle_unrecognized">handles
+unrecognized messages</a>.</li>
+    </ol>
+  </li><li><a href="#send_message">Send messages to the new MHL</a>.</li>
+</ol>
+<br>
+Note: To
+keep the block diagram of Main.vi compact and readable, you can
+encapsulate each MHL into a subVI. To further organize the project, you
+can put each subVI, any supporting VIs, and its data typedef into a
+project library. Refer to the Continuous Measurement and Logging sample
+project, available from the <strong>Create Project</strong> dialog
+box, for an example of this design.
+<ol>
+
+
+</ol>
+
+
+
+
+<a name="add_diagram"></a>
+<h3>Creating a Message Diagram</h3>
+
+<p>A message diagram is the subdiagram of a Case structure, located in
+a Message Handling Loop, that handles a particular message. It is
+similar to a state in a state machine.</p>
+
+<p>A message diagram is a subdiagram of a Case structure that is
+labeled with a string. It executes when the MHL receives a message that
+matches this label.</p>
+
+<p>Complete the following steps to create a message diagram:</p>
+
+<ol>
+
+  <li>In the MHL that represents the task, add a subdiagram to the Case
+structure.
+    <table class="Borderless">
+      <tbody>
+        <tr>
+          <td class="Icon"><img src="noloc_tip.png"></td>
+          <td><strong>Tip</strong>&nbsp;&nbsp;
+If you are adding a message diagram to the MHL included in the
+template, you can automatically include the data and error wires in the
+new message diagram by duplicating the ---Copy This Frame--- case.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>In the case selector label, enter the text of the message
+that will trigger this message diagram to execute. For example, the
+following message diagram executes when LabVIEW reads <span class="Monospace">New Message</span> from the message queue:<br>
+    <br>
+    <img src="loc_new_message_diagram.png"></li>
+<li>Add code that executes upon receiving this message. As you do
+this, pay attention to the following guidelines:
+    <ul>
+      <li>To access and modify task data, use the In-Place Element structure:<br>
+        <br>
+        <img style="border: 1px solid ; width: 628px; height: 78px;" alt="" src="loc_access_task_data.png"></li>
+      <li>To ensure that you track all errors, use the Merge Errors
+function to merge errors coming from all nodes in the subdiagram.</li>
+      <li>To access message data, wire the <strong>Message Data</strong>
+input tunnel to a Variant to Data function:<br>
+        <br>
+        <img src="loc_convert_variant.png"></li>
+      <li>To
+send a message to a message queue, wire the pink channel wire to the
+border of the structure where you want to send the message, then right
+click on the channel wire and select Create &gt;&gt; Channel Writer. <br>
+</li>
+    </ul>
+  </li>
+  <li>To execute the message diagram, <a href="#send_message">send a
+message</a> to the MHL using the the label of
+the message diagram that you entered in step 2 and data of the type you used in step 3.<br>
+</li>
+</ol>
+
+<a name="change_ui_data"></a>
+<h3>Defining Data that a Message Handling Loop Needs</h3>
+
+<p>In the template, <strong>UI Data.ctl</strong> is the typedef that
+defines the cluster of data that the MHL can access:</p>
+
+<img src="loc_ui_data.png">
+<p>Modify this typedef according the needs of your application. For
+example, if more than one message diagram in an MHL needs to modify the
+same Boolean control, add a Boolean control to this typedef.</p>
+
+<p>If you have more than one MHL, create a typedef for each one. This
+design prevents errors by ensuring one MHL cannot access the data of
+another.</p>
+
+<a name="add_control"></a>
+<h3>Adding a Control that Sends a Message to a Message Handling Loop</h3>
+
+<ol>
+
+  <li>Add a control to the front panel.</li>
+  <li>(Optional) If you want a message diagram to programmatically
+modify this control, <a href="#bundle_control">bundle the control
+refnum</a> into the typedef for that MHL.</li>
+  <li>Add an Event case to the Event structure in the Event Handling
+Loop.</li>
+  <li>Configure the event to trigger when the value of this new button
+changes:<br>
+    <br>
+    <img src="loc_value_change_event.png"></li>
+  <li>Click <strong>OK</strong>. LabVIEW creates an event case in the
+Event structure.</li>
+  <li>Associate the terminal with the event by dragging the block
+diagram terminal for the new control inside this event case.</li>
+  <li>Add code to this event case that <a href="#send_message">sends a
+message to an MHL</a>.</li>
+</ol>
+
+<a name="send_message"></a>
+<h3>Sending a Message to a Message Handling Loop</h3>
+
+<p>Messages are strings that instruct an MHL to execute one of its
+message diagrams. Messages are produced by the EHL and are stored in
+the message queue. Every iteration of the MHL reads the oldest message
+in the message queue and executes the corresponding message diagram.</p>
+
+<p>Complete the following steps to send a message to an MHL:</p>
+
+<ol>
+
+  <li>Decide what message you want to send. Find the message case
+structure frame that corresponds to that message and make a note of its
+label. That string will be the message string. If the message has
+associated data, note what type is wired into the Variant To Data node.<br>
+</li>
+  <li>Decide what part of the application will send the message. At
+that location, add the following code. For Message, use the string you
+noted in step 1. For Message Data, use a constant of the type noted in
+step 1, or leave it out.<br>
+    <img style="border: 1px solid ; width: 276px; height: 83px;" alt="" src="loc_send_message.png"><br>
+LabVIEW displays a coercion dot on the message data input terminal because the data
+type of this terminal is variant.<br>
+Note: If the message you want to send is the instruction to stop the
+MHL, instead of Enqueue Message.vi, use Abort Message Queue.vi instead.<br>
+  </li>
+
+  <li>Connect the pink channel wire output from Enqueue Message to the channel wire of the MHL that will receive the message.
+    <table class="Borderless">
+      <tbody>
+        <tr>
+          <td class="Icon"><img src="noloc_note.png"></td>
+          <td><strong>Note</strong>&nbsp;&nbsp;Access the Enqueue
+Message VI from the <strong>Project Explorer</strong> window of the
+template or by using Quick Drop.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  
+</ol>
+
+<a name="handle_unrecognized"></a>
+<h3>Handling Unrecognized Messages</h3>
+
+<p>Ensure all Case structures in an MHL have a <strong>Default</strong>
+message diagram. The code in this message diagram executes when the MHL
+reads a message that does not have a corresponding message diagram.
+Having a <strong>Default</strong>
+message diagram is important because
+messages are strings that you enter while programming, not values you
+select from an enum. For this reason, some people prefer to make the
+message list be an enum type, but this causes a lot of code churn when
+you have to update the enum in the future. <br>
+</p>
+
+<a name="ignore_errors"></a>
+<h3>Ignoring Errors in the Event Handling Loop and Message Handling Loop</h3>
+
+<p>You can specify a list of errors to ignore for both the EHL and MHL
+using their respective error handler subVIs by completing the following
+procedures:</p>
+
+<ol>
+
+  <li>In the <strong>Project Explorer</strong> window, open Error
+Handler - Event Handling Loop.vi or Error Handler - Message Handling
+Loop.vi, depending on where you want LabVIEW to ignore the errors, and
+display the block diagram.</li>
+  <li>Find the array constant labeled <strong>Ignore Errors (Static
+List)</strong>:<br>
+    <br>
+    <img src="loc_qmh_ignore_errors.png"></li>
+</ol>
+
+<p>To ignore errors in the EHL or MHL, add error codes to the array.
+Specify one error code per array element. The errors to ignore depend
+on your application. For example, if you are reading the queue over a
+network, you might want to ignore timeout errors.</p>
+
+<p>You also can specify ignore errors dynamically at runtime by wiring
+an array control to the <strong>Ignore Errors (Runtime)</strong> input
+of the error handler subVI. Specify one error code per array element.</p>
+
+<p>LabVIEW treats all errors that you do not specify as ignore errors
+as regular errors. If the regular errors occur in the EHL, LabVIEW
+sends Error messages to the message queue. You can define how the MHL
+consumes the Error messages. If the regular errors occur in the MHL,
+LabVIEW sends Exit messages to the message queue. Make sure that the
+CMH stops by executing the Exit message diagram. The regular errors in
+the MHL may place the CMH in an unknown state.</p>
+
+<br>
+
+<a name="rel_info">
+<h2>Related Information</h2>
+</a>
+<p>Refer to the <em>LabVIEW Help</em>, available by selecting <strong>Help»LabVIEW
+Help</strong> from LabVIEW, for information about LabVIEW concepts or
+objects used in this template. You also can use the <strong>Context
+Help</strong> window to learn basic information about LabVIEW objects
+as you move the cursor over each object. To display the <strong>Context
+Help</strong> window in LabVIEW, select <strong>Help»Show Context Help</strong>.</p>
+
+<p>Refer to the Continuous Measurement and Logging sample project,
+available from the <strong>Create Project</strong> dialog box, for an
+example of adapting this template to a measurement application.</p>
+
+<p>Refer to <a href="javascript:WWW(L_walkthrough)">ni.com</a> for a
+developer walkthrough of this template.</p>
+
+<hr>
+<h2>Legal Information</h2>
+
+<!--Copyright-->
+<p><strong>Copyright</strong></p>
+
+<p>© 2014–2020 National Instruments. All rights reserved.</p>
+
+<p>Under the copyright laws, this publication may not be reproduced or
+transmitted in any form, electronic or mechanical, including
+photocopying, recording, storing in an information retrieval system, or
+translating, in whole or in part, without the prior written consent of
+National Instruments Corporation.</p>
+
+<p>NI respects the intellectual property of others, and we ask our
+users to do the same. NI software is protected by copyright and other
+intellectual property laws. Where NI software may be used to reproduce
+software or other materials belonging to others, you may use NI
+software only to reproduce materials that you may reproduce in
+accordance with the terms of any applicable license or other legal
+restriction.</p>
+
+<p><strong>End-User License Agreements and Third-Party Legal Notices</strong></p>
+
+<p>You can find end-user license agreements (EULAs) and third-party
+legal notices in the following locations after installation:</p>
+
+<ul>
+
+  <li>Notices are located in the <span class="Monospace">&lt;National
+Instruments&gt;\_Legal Information</span> and <span class="Monospace">&lt;National
+Instruments&gt;</span> directories.</li>
+  <li>EULAs are located in the <span class="Monospace">&lt;National
+Instruments&gt;\Shared\MDF\Legal\license</span> directory.</li>
+  <li>Review <span class="Monospace">&lt;National
+Instruments&gt;\_Legal Information.txt</span> for information on
+including legal information in installers built with NI products.</li>
+</ul>
+
+<p><strong>U.S. Government Restricted Rights</strong></p>
+
+<p>If you are an agency, department, or other entity of the United
+States Government ("Government"), the use, duplication, reproduction,
+release, modification, disclosure or transfer of the technical data
+included in this manual is governed by the Restricted Rights provisions
+under Federal Acquisition Regulation 52.227-14 for civilian agencies
+and Defense Federal Acquisition Regulation Supplement Section
+252.227-7014 and 252.227-7015 for military agencies.</p>
+
+<p><strong>IVI Foundation Copyright Notice</strong></p>
+
+<p><span class="DNL">Content from the IVI specifications reproduced
+with permission from the IVI Foundation.</span></p>
+
+<p><span class="DNL">The IVI Foundation and its member companies make
+no warranty of any kind with regard to this material, including, but
+not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The IVI Foundation and its member companies
+shall not be liable for errors contained herein or for incidental or
+consequential damages in connection with the furnishing, performance,
+or use of this material.</span></p>
+
+<!--Trademarks-->
+<p><strong>Trademarks</strong></p>
+
+<p>Refer to the <em><span class="DNL">NI Trademarks and Logo Guidelines</span></em>
+at <a href="http://www.ni.com/r/rdtrad" target="_blank"><span class="DNL">ni.com/trademarks</span></a> for information on <span class="DNL">NI</span> trademarks. Other product and company names
+mentioned herein are trademarks or trade names of their respective
+companies.</p>
+
+<!--Patents-->
+<p><strong>Patents</strong></p>
+
+<p>For patents covering the NI products/technology, refer to the
+appropriate location: <strong>Help»Patents</strong> in your software,
+the <span class="Monospace">patents.txt</span> file on your media, or
+the <em>NI Patent Notice</em> at <a href="http://www.ni.com/r/rdlv17" target="_blank">ni.com/patents</a>.</p>
+
+</body></html>
