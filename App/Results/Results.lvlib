@@ -8,4 +8,5 @@
 	<Item Name="Results Method.ctl" Type="VI" URL="../Results Method.ctl"/>
 	<Item Name="Results.lvclass" Type="LVClass" URL="../Results.lvclass"/>
 	<Item Name="LNG Boiling Results.lvclass" Type="LVClass" URL="../LNG Boiling Results/LNG Boiling Results.lvclass"/>
+	<Item Name="HTS Results.lvclass" Type="LVClass" URL="../HTS Results/HTS Results.lvclass"/>
 </Library>
