@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Heat Flow Test Stand.lvclass" Type="LVClass" URL="../Heat Flow/Heat Flow Test Stand.lvclass"/>
-	<Item Name="HTS Test Stand.lvclass" Type="LVClass" URL="../HTS/HTS Test Stand.lvclass"/>
 	<Item Name="LNG Boiling Test Stand.lvclass" Type="LVClass" URL="../LNG Boiling/LNG Boiling Test Stand.lvclass"/>
+	<Item Name="HTS Test Stand.lvclass" Type="LVClass" URL="../HTS/HTS Test Stand.lvclass"/>
 </Library>
