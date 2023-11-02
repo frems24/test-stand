@@ -9,4 +9,5 @@
 	<Item Name="Results.lvclass" Type="LVClass" URL="../Results.lvclass"/>
 	<Item Name="LNG Boiling Results.lvclass" Type="LVClass" URL="../LNG Boiling Results/LNG Boiling Results.lvclass"/>
 	<Item Name="HTS Results.lvclass" Type="LVClass" URL="../HTS Results/HTS Results.lvclass"/>
+	<Item Name="Water Tunnel Results.lvclass" Type="LVClass" URL="../Water Tunnel Results/Water Tunnel Results.lvclass"/>
 </Library>
