@@ -29,7 +29,7 @@
 	</Item>
 	<Item Name="Dynamic Methods" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Setup TS DAC.vi" Type="VI" URL="../Setup TS DAC.vi">
+		<Item Name="Setup TS.vi" Type="VI" URL="../Setup TS.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!"B):7&amp;U)%:M&lt;X=A6'6T&gt;#"4&gt;'&amp;O:#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!$!26'6T&gt;#"4&gt;'&amp;O:(-O&lt;(:M;7)=3'6B&gt;#"'&lt;'^X)&amp;2F=X1A5X2B&lt;G1O&lt;(:D&lt;'&amp;T=Q!!&amp;UBF981A2GRP&gt;S"5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -56,7 +56,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
-		<Item Name="Configure TS DAC Results.vi" Type="VI" URL="../Configure TS DAC Results.vi">
+		<Item Name="Configure TS Results.vi" Type="VI" URL="../Configure TS Results.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!!Z5:8.U)&amp;.U97ZE)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%B!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!!V5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -65,7 +65,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
 		</Item>
-		<Item Name="Run TS DAC.vi" Type="VI" URL="../Run TS DAC.vi">
+		<Item Name="Run TS.vi" Type="VI" URL="../Run TS.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!!Z5:8.U)&amp;.U97ZE)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%B!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!!V5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -83,7 +83,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
-		<Item Name="TS DAC Run Start.vi" Type="VI" URL="../TS DAC Run Start.vi">
+		<Item Name="TS Run Start.vi" Type="VI" URL="../TS Run Start.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!"B):7&amp;U)%:M&lt;X=A6'6T&gt;#"4&gt;'&amp;O:#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!$!26'6T&gt;#"4&gt;'&amp;O:(-O&lt;(:M;7)=3'6B&gt;#"'&lt;'^X)&amp;2F=X1A5X2B&lt;G1O&lt;(:D&lt;'&amp;T=Q!!&amp;UBF981A2GRP&gt;S"5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
@@ -92,7 +92,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
-		<Item Name="TS DAC Run Stop.vi" Type="VI" URL="../TS DAC Run Stop.vi">
+		<Item Name="TS Run Stop.vi" Type="VI" URL="../TS Run Stop.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!"B):7&amp;U)%:M&lt;X=A6'6T&gt;#"4&gt;'&amp;O:#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!$!26'6T&gt;#"4&gt;'&amp;O:(-O&lt;(:M;7)=3'6B&gt;#"'&lt;'^X)&amp;2F=X1A5X2B&lt;G1O&lt;(:D&lt;'&amp;T=Q!!&amp;UBF981A2GRP&gt;S"5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -101,7 +101,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
-		<Item Name="Save TS DAC Results.vi" Type="VI" URL="../Save TS DAC Results.vi">
+		<Item Name="Save TS Results.vi" Type="VI" URL="../Save TS Results.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!"B):7&amp;U)%:M&lt;X=A6'6T&gt;#"4&gt;'&amp;O:#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!$!26'6T&gt;#"4&gt;'&amp;O:(-O&lt;(:M;7)=3'6B&gt;#"'&lt;'^X)&amp;2F=X1A5X2B&lt;G1O&lt;(:D&lt;'&amp;T=Q!!&amp;UBF981A2GRP&gt;S"5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -110,7 +110,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
-		<Item Name="TS DAC Status.vi" Type="VI" URL="../TS DAC Status.vi">
+		<Item Name="TS Status.vi" Type="VI" URL="../TS Status.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!Q%62F=X1A5X2B&lt;G2T,GRW&lt;'FC(%BF981A2GRP&gt;S"5:8.U)&amp;.U97ZE,GRW9WRB=X-!!"B):7&amp;U)%:M&lt;X=A6'6T&gt;#"4&gt;'&amp;O:#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!$!26'6T&gt;#"4&gt;'&amp;O:(-O&lt;(:M;7)=3'6B&gt;#"'&lt;'^X)&amp;2F=X1A5X2B&lt;G1O&lt;(:D&lt;'&amp;T=Q!!&amp;UBF981A2GRP&gt;S"5:8.U)&amp;.U97ZE)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
