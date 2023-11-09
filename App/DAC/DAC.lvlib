@@ -5,7 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="HTS" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
+		<Item Name="DAC Vacum Pressure.lvclass" Type="LVClass" URL="../HTS/Vacum Pressure/DAC Vacum Pressure.lvclass"/>
 	</Item>
 	<Item Name="LNG Boiling" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
