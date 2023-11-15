@@ -8,6 +8,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
 		<Item Name="DAC Vacum Pressure.lvclass" Type="LVClass" URL="../HTS/Vacum Pressure/DAC Vacum Pressure.lvclass"/>
+		<Item Name="DAC DC Supply.lvclass" Type="LVClass" URL="../HTS/DC Supply/DAC DC Supply.lvclass"/>
 	</Item>
 	<Item Name="LNG Boiling" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
