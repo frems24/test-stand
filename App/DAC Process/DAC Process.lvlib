@@ -14,6 +14,7 @@
 		<Item Name="Configure DAC Front Panel.lvclass" Type="LVClass" URL="../Configure DAC Front Panel/Configure DAC Front Panel.lvclass"/>
 		<Item Name="Run DAC Front Panel.lvclass" Type="LVClass" URL="../Run DAC Front Panel/Run DAC Front Panel.lvclass"/>
 		<Item Name="Configure DAC Test Stand.lvclass" Type="LVClass" URL="../Configure DAC Test Stand/Configure DAC Test Stand.lvclass"/>
+		<Item Name="Prepare DAC Start.lvclass" Type="LVClass" URL="../Prepare DAC Start/Prepare DAC Start.lvclass"/>
 		<Item Name="Start DAC.lvclass" Type="LVClass" URL="../Start DAC/Start DAC.lvclass"/>
 		<Item Name="Stop DAC.lvclass" Type="LVClass" URL="../Stop DAC/Stop DAC.lvclass"/>
 		<Item Name="Select DAC Config File.lvclass" Type="LVClass" URL="../Select DAC Config File/Select DAC Config File.lvclass"/>
