@@ -19,5 +19,8 @@
 		<Item Name="DAC Heater dU.lvclass" Type="LVClass" URL="../LNG Boiling/Heater dU/DAC Heater dU.lvclass"/>
 		<Item Name="DAC Heater Ctrl.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Ctrl/DAC Heater Ctrl.lvclass"/>
 	</Item>
+	<Item Name="Water Tunnel" Type="Folder">
+		<Item Name="DAC Inclinometer.lvclass" Type="LVClass" URL="../Water Tunnel/Inclinometer/DAC Inclinometer.lvclass"/>
+	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
