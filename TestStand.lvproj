@@ -375,12 +375,11 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Configure.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 66XX Series/Public/Configure VI&apos;s/Configure.vi"/>
-				<Item Name="Read Meas.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 66XX Series/Public/Data VI&apos;s/Read Meas.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 66XX Series/Public/Initialize.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 66XX Series/Public/Close.vi"/>
+				<Item Name="Agilent 66XX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 66XX Series/Agilent 66XX Series.lvlib"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
