@@ -21,6 +21,7 @@
 	</Item>
 	<Item Name="Water Tunnel" Type="Folder">
 		<Item Name="DAC Inclinometer.lvclass" Type="LVClass" URL="../Water Tunnel/Inclinometer/DAC Inclinometer.lvclass"/>
+		<Item Name="DAC Pressure Scan.lvclass" Type="LVClass" URL="../Water Tunnel/Pressure Scan/DAC Pressure Scan.lvclass"/>
 	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
