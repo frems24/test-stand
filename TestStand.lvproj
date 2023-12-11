@@ -118,6 +118,7 @@
 			<Item Name="Logging.lvlib" Type="Library" URL="../App/Logging/Logging.lvlib"/>
 			<Item Name="Settings.lvlib" Type="Library" URL="../App/Settings/Settings.lvlib"/>
 		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../App/Main.vi"/>
 		<Item Name="TS Framework.lvlib" Type="Library" URL="../App/TS Framework/TS Framework.lvlib"/>
 		<Item Name="Generic Test Stand.lvclass" Type="LVClass" URL="../App/Generic Test Stand/Generic Test Stand.lvclass"/>
 		<Item Name="Test Stands.lvlib" Type="Library" URL="../App/Test Stands/Test Stands.lvlib"/>
@@ -127,7 +128,6 @@
 		<Item Name="User Interface Process.lvlib" Type="Library" URL="../App/UI Process/User Interface Process.lvlib"/>
 		<Item Name="DAC Process.lvlib" Type="Library" URL="../App/DAC Process/DAC Process.lvlib"/>
 		<Item Name="Trig Process.lvlib" Type="Library" URL="../App/Trig Process/Trig Process.lvlib"/>
-		<Item Name="Main.vi" Type="VI" URL="../App/Main.vi"/>
 		<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
