@@ -395,7 +395,6 @@
 			<Item Name="Messenger-t&apos;Message Queue.lvlib-Message Cluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-t&apos;Message Queue.lvlib-Message Cluster.ctl&apos;.lvlib"/>
 			<Item Name="Stream-var.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-var.lvlib"/>
 			<Item Name="Event Messenger-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-bool.lvlib"/>
-			<Item Name="Read Raw Names.vi" Type="VI" URL="../App/DAC/Water Tunnel/ADV/Read Raw Names.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
