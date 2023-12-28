@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Results Method.ctl" Type="VI" URL="../Results Method.ctl"/>
 	<Item Name="Results.lvclass" Type="LVClass" URL="../Results.lvclass"/>
+	<Item Name="Results Method.ctl" Type="VI" URL="../Results Method.ctl"/>
 	<Item Name="LNG Boiling Results.lvclass" Type="LVClass" URL="../LNG Boiling Results/LNG Boiling Results.lvclass"/>
 	<Item Name="HTS Results.lvclass" Type="LVClass" URL="../HTS Results/HTS Results.lvclass"/>
 	<Item Name="Water Tunnel Results.lvclass" Type="LVClass" URL="../Water Tunnel Results/Water Tunnel Results.lvclass"/>

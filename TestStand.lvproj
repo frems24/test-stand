@@ -118,6 +118,7 @@
 			<Item Name="Logging.lvlib" Type="Library" URL="../App/Logging/Logging.lvlib"/>
 			<Item Name="Settings.lvlib" Type="Library" URL="../App/Settings/Settings.lvlib"/>
 		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../App/Main.vi"/>
 		<Item Name="TS Framework.lvlib" Type="Library" URL="../App/TS Framework/TS Framework.lvlib"/>
 		<Item Name="Generic Test Stand.lvclass" Type="LVClass" URL="../App/Generic Test Stand/Generic Test Stand.lvclass"/>
 		<Item Name="Test Stands.lvlib" Type="Library" URL="../App/Test Stands/Test Stands.lvlib"/>
@@ -127,7 +128,6 @@
 		<Item Name="User Interface Process.lvlib" Type="Library" URL="../App/UI Process/User Interface Process.lvlib"/>
 		<Item Name="DAC Process.lvlib" Type="Library" URL="../App/DAC Process/DAC Process.lvlib"/>
 		<Item Name="Trig Process.lvlib" Type="Library" URL="../App/Trig Process/Trig Process.lvlib"/>
-		<Item Name="Main.vi" Type="VI" URL="../App/Main.vi"/>
 		<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -377,6 +377,7 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 66XX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 66XX Series/Agilent 66XX Series.lvlib"/>

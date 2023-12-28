@@ -4,6 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="LNG Boiling" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="DAC Shunt dU.lvclass" Type="LVClass" URL="../LNG Boiling/Shunt dU/DAC Shunt dU.lvclass"/>
+		<Item Name="DAC Heater Box Temperatures.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Box Temperatures/DAC Heater Box Temperatures.lvclass"/>
+		<Item Name="DAC Heater dU.lvclass" Type="LVClass" URL="../LNG Boiling/Heater dU/DAC Heater dU.lvclass"/>
+		<Item Name="DAC Heater Ctrl.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Ctrl/DAC Heater Ctrl.lvclass"/>
+	</Item>
 	<Item Name="HTS" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
@@ -12,15 +20,10 @@
 		<Item Name="DAC Vacum Pressure.lvclass" Type="LVClass" URL="../HTS/Vacum Pressure/DAC Vacum Pressure.lvclass"/>
 		<Item Name="DAC LN2 Temp.lvclass" Type="LVClass" URL="../HTS/LN2 Temp/DAC LN2 Temp.lvclass"/>
 	</Item>
-	<Item Name="LNG Boiling" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="DAC Shunt dU.lvclass" Type="LVClass" URL="../LNG Boiling/Shunt dU/DAC Shunt dU.lvclass"/>
-		<Item Name="DAC Heater Box Temperatures.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Box Temperatures/DAC Heater Box Temperatures.lvclass"/>
-		<Item Name="DAC Heater dU.lvclass" Type="LVClass" URL="../LNG Boiling/Heater dU/DAC Heater dU.lvclass"/>
-		<Item Name="DAC Heater Ctrl.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Ctrl/DAC Heater Ctrl.lvclass"/>
-	</Item>
 	<Item Name="Water Tunnel" Type="Folder">
 		<Item Name="DAC Inclinometer.lvclass" Type="LVClass" URL="../Water Tunnel/Inclinometer/DAC Inclinometer.lvclass"/>
+		<Item Name="DAC Pressure Scan.lvclass" Type="LVClass" URL="../Water Tunnel/Pressure Scan/DAC Pressure Scan.lvclass"/>
+		<Item Name="DAC ADV.lvclass" Type="LVClass" URL="../Water Tunnel/ADV/DAC ADV.lvclass"/>
 	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
