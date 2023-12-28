@@ -28,14 +28,16 @@
 	<Item Name="DAC Vacum Valve.ctl" Type="Class Private Data" URL="DAC Vacum Valve.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Valve Close.vi" Type="VI" URL="../Valve Close.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!D#52"1SZM&gt;GRJ9B&gt;%15-A6G&amp;D&gt;7UA6G&amp;M&gt;G5O&lt;(:D&lt;'&amp;T=Q!42%&amp;$)&amp;:B9X6N)&amp;:B&lt;(:F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!D#52"1SZM&gt;GRJ9B&gt;%15-A6G&amp;D&gt;7UA6G&amp;M&gt;G5O&lt;(:D&lt;'&amp;T=Q!32%&amp;$)&amp;:B9X6N)&amp;:B&lt;(:F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	<Item Name="Private Methods" Type="Folder">
+		<Item Name="Valve Close.vi" Type="VI" URL="../Valve Close.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!D#52"1SZM&gt;GRJ9B&gt;%15-A6G&amp;D&gt;7UA6G&amp;M&gt;G5O&lt;(:D&lt;'&amp;T=Q!42%&amp;$)&amp;:B9X6N)&amp;:B&lt;(:F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!D#52"1SZM&gt;GRJ9B&gt;%15-A6G&amp;D&gt;7UA6G&amp;M&gt;G5O&lt;(:D&lt;'&amp;T=Q!32%&amp;$)&amp;:B9X6N)&amp;:B&lt;(:F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		</Item>
 	</Item>
 	<Item Name="Load DAC Configuration.vi" Type="VI" URL="../Load DAC Configuration.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!([!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!&amp;A!"#W.P&lt;G:J:S"E982B!!:S:7:O&gt;7U!!&amp;=!]&lt;GGFI1!!!!#%5Z*8UR71W^O:GFH,GRW&lt;'FC&amp;E.P&lt;G:J:S"%982B)&amp;*F:EZV&lt;3ZD&gt;'Q!*E"Q!!%!!1!&amp;&amp;E.P&lt;G:J:S"';7RF)(*F:GZV&lt;3"P&gt;81!!%"!=!!?!!!D#52"1SZM&gt;GRJ9B&gt;%15-A6G&amp;D&gt;7UA6G&amp;M&gt;G5O&lt;(:D&lt;'&amp;T=Q!42%&amp;$)&amp;:B9X6N)&amp;:B&lt;(:F)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!61$RO;;7B!!!!!)24EF@4&amp;:$&lt;WZG;7=O&lt;(:M;7)71W^O:GFH)%2B&gt;'%A5G6G4H6N,G.U&lt;!!E1(!!!1!"!!561W^O:GFH)%:J&lt;'5A=G6G&lt;H6N)'FO!%"!=!!?!!!D#52"1SZM&gt;GRJ9B&gt;%15-A6G&amp;D&gt;7UA6G&amp;M&gt;G5O&lt;(:D&lt;'&amp;T=Q!32%&amp;$)&amp;:B9X6N)&amp;:B&lt;(:F)'FO!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!E!#A-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!3!!!!EA!!!!!"!!M!!!!!</Property>
