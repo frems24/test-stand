@@ -95,30 +95,16 @@
 			</Item>
 			<Item Name="Channeled Message Handler Documentation.html" Type="Document" URL="../App/documentation/Channeled Message Handler Documentation.html"/>
 		</Item>
-		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="UI Refs.ctl" Type="VI" URL="../App/controls/UI Refs.ctl"/>
-			<Item Name="UI State.ctl" Type="VI" URL="../App/controls/UI State.ctl"/>
-		</Item>
 		<Item Name="Old Project" Type="Folder">
 			<Item Name="Support VIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Maintenance" Type="Folder">
-					<Item Name="Log File Create.vi" Type="VI" URL="../App/support/Maintenance/Log File Create.vi"/>
-					<Item Name="Base Path Init.vi" Type="VI" URL="../App/support/Maintenance/Base Path Init.vi"/>
-					<Item Name="ExeLogWrite.vi" Type="VI" URL="../App/support/Maintenance/ExeLogWrite.vi"/>
-				</Item>
-				<Item Name="Message Queue.lvlib" Type="Library" URL="../App/support/Message Queue/Message Queue.lvlib"/>
 				<Item Name="Check Loop Error.vi" Type="VI" URL="../App/support/Check Loop Error.vi"/>
 				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../App/support/Error Handler - Event Handling Loop.vi"/>
 				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../App/support/Error Handler - Message Handling Loop.vi"/>
 				<Item Name="Error Handler - Confirm Quit.vi" Type="VI" URL="../App/support/Error Handler - Confirm Quit.vi"/>
 				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../App/support/Set Enable State on Multiple Controls.vi"/>
 			</Item>
-			<Item Name="Acquisition.lvlib" Type="Library" URL="../App/Acquisition/Acquisition.lvlib"/>
-			<Item Name="Logging.lvlib" Type="Library" URL="../App/Logging/Logging.lvlib"/>
-			<Item Name="Settings.lvlib" Type="Library" URL="../App/Settings/Settings.lvlib"/>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../App/Main.vi"/>
 		<Item Name="TS Framework.lvlib" Type="Library" URL="../App/TS Framework/TS Framework.lvlib"/>
 		<Item Name="Generic Test Stand.lvclass" Type="LVClass" URL="../App/Generic Test Stand/Generic Test Stand.lvclass"/>
 		<Item Name="Test Stands.lvlib" Type="Library" URL="../App/Test Stands/Test Stands.lvlib"/>
@@ -371,8 +357,6 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Wait for RQS.VI" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.VI"/>
@@ -390,8 +374,8 @@
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 			<Item Name="Messenger-t&apos;Message Queue.lvlib-Message Cluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-t&apos;Message Queue.lvlib-Message Cluster.ctl&apos;.lvlib"/>
-			<Item Name="Stream-var.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-var.lvlib"/>
-			<Item Name="Event Messenger-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-bool.lvlib"/>
+			<Item Name="Enqueue Message.vi" Type="VI" URL="../App/support/Message Queue/Enqueue Message.vi"/>
+			<Item Name="Abort Message Queue.vi" Type="VI" URL="../App/support/Message Queue/Abort Message Queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
@@ -418,7 +402,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
