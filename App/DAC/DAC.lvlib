@@ -24,6 +24,8 @@
 		<Item Name="DAC Inclinometer.lvclass" Type="LVClass" URL="../Water Tunnel/Inclinometer/DAC Inclinometer.lvclass"/>
 		<Item Name="DAC Pressure Scan.lvclass" Type="LVClass" URL="../Water Tunnel/Pressure Scan/DAC Pressure Scan.lvclass"/>
 		<Item Name="DAC ADV.lvclass" Type="LVClass" URL="../Water Tunnel/ADV/DAC ADV.lvclass"/>
+		<Item Name="DAC Traverse.lvclass" Type="LVClass" URL="../Water Tunnel/Traverse/DAC Traverse.lvclass"/>
+		<Item Name="DAC Pump Inv.lvclass" Type="LVClass" URL="../Water Tunnel/Pump Inverter/DAC Pump Inv.lvclass"/>
 	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
