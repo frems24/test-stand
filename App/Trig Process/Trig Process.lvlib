@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Commands" Type="Folder">
+		<Item Name="Configure TRIG Process.lvclass" Type="LVClass" URL="../Configure TRIG Process/Configure TRIG Process.lvclass"/>
 		<Item Name="Exit TRIG.lvclass" Type="LVClass" URL="../Exit TRIG/Exit TRIG.lvclass"/>
 		<Item Name="Stop TRIG.lvclass" Type="LVClass" URL="../Stop TRIG/Stop TRIG.lvclass"/>
 		<Item Name="TRIG Next Acq Request.lvclass" Type="LVClass" URL="../TRIG Next Acq Request/TRIG Next Acq Request.lvclass"/>
