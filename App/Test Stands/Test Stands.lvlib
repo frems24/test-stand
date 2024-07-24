@@ -6,7 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="LNG Boiling Test Stand.lvclass" Type="LVClass" URL="../LNG Boiling/LNG Boiling Test Stand.lvclass"/>
+	<Item Name="DeepU Test Stand.lvclass" Type="LVClass" URL="../DeepU/DeepU Test Stand.lvclass"/>
+	<Item Name="Heat Flow Test Stand.lvclass" Type="LVClass" URL="../Heat Flow/Heat Flow Test Stand.lvclass"/>
 	<Item Name="HTS Test Stand.lvclass" Type="LVClass" URL="../HTS/HTS Test Stand.lvclass"/>
 	<Item Name="Water Tunnel Test Stand.lvclass" Type="LVClass" URL="../Water Tunnel/Water Tunnel Test Stand.lvclass"/>
-	<Item Name="DeepU Test Stand.lvclass" Type="LVClass" URL="../DeepU/DeepU Test Stand.lvclass"/>
 </Library>
