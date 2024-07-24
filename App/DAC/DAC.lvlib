@@ -27,5 +27,8 @@
 		<Item Name="DAC Traverse.lvclass" Type="LVClass" URL="../Water Tunnel/Traverse/DAC Traverse.lvclass"/>
 		<Item Name="DAC Pump Inv.lvclass" Type="LVClass" URL="../Water Tunnel/Pump Inverter/DAC Pump Inv.lvclass"/>
 	</Item>
+	<Item Name="DeepU" Type="Folder">
+		<Item Name="DAC TC Temperature.lvclass" Type="LVClass" URL="../DeepU/TC Temperature/DAC TC Temperature.lvclass"/>
+	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
