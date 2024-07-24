@@ -10,6 +10,7 @@
 	<Item Name="LNG Boiling Results.lvclass" Type="LVClass" URL="../LNG Boiling Results/LNG Boiling Results.lvclass"/>
 	<Item Name="DeepU Results.lvclass" Type="LVClass" URL="../DeepU Results/DeepU Results.lvclass"/>
 	<Item Name="Heat Flow Results.lvclass" Type="LVClass" URL="../Heat Flow Results/Heat Flow Results.lvclass"/>
+	<Item Name="Cryo Sep Results.lvclass" Type="LVClass" URL="../Cryo Sep Results/Cryo Sep Results.lvclass"/>
 	<Item Name="HTS Results.lvclass" Type="LVClass" URL="../HTS Results/HTS Results.lvclass"/>
 	<Item Name="Water Tunnel Results.lvclass" Type="LVClass" URL="../Water Tunnel Results/Water Tunnel Results.lvclass"/>
 </Library>
