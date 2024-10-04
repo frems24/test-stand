@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="DeepU" Type="Folder">
 		<Item Name="DAC TC Temperature.lvclass" Type="LVClass" URL="../DeepU/TC Temperature/DAC TC Temperature.lvclass"/>
+		<Item Name="DAC Keller Diff P 23X.lvclass" Type="LVClass" URL="../DeepU/Keller Diff P 23X/DAC Keller Diff P 23X.lvclass"/>
 	</Item>
 	<Item Name="HTS" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
