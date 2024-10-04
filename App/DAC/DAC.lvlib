@@ -12,6 +12,10 @@
 		<Item Name="DAC Heater dU.lvclass" Type="LVClass" URL="../LNG Boiling/Heater dU/DAC Heater dU.lvclass"/>
 		<Item Name="DAC Heater Ctrl.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Ctrl/DAC Heater Ctrl.lvclass"/>
 	</Item>
+	<Item Name="DeepU" Type="Folder">
+		<Item Name="DAC TC Temperature.lvclass" Type="LVClass" URL="../DeepU/TC Temperature/DAC TC Temperature.lvclass"/>
+		<Item Name="DAC Keller Diff P 23X.lvclass" Type="LVClass" URL="../DeepU/Keller Diff P 23X/DAC Keller Diff P 23X.lvclass"/>
+	</Item>
 	<Item Name="HTS" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
@@ -26,9 +30,6 @@
 		<Item Name="DAC ADV.lvclass" Type="LVClass" URL="../Water Tunnel/ADV/DAC ADV.lvclass"/>
 		<Item Name="DAC Traverse.lvclass" Type="LVClass" URL="../Water Tunnel/Traverse/DAC Traverse.lvclass"/>
 		<Item Name="DAC Pump Inv.lvclass" Type="LVClass" URL="../Water Tunnel/Pump Inverter/DAC Pump Inv.lvclass"/>
-	</Item>
-	<Item Name="DeepU" Type="Folder">
-		<Item Name="DAC TC Temperature.lvclass" Type="LVClass" URL="../DeepU/TC Temperature/DAC TC Temperature.lvclass"/>
 	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
