@@ -362,6 +362,9 @@
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="KELLER RS485 Library.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_KELLER RS485 Library/KELLER RS485 Library.lvlib"/>
+			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
