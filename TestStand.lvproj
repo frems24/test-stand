@@ -115,6 +115,7 @@
 		<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
 		<Item Name="Com7 test.vi" Type="VI" URL="../Com7 test.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+		<Item Name="PD23X Test.vi" Type="VI" URL="../PD23X Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
