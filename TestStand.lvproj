@@ -388,6 +388,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Read Acq Time.vi" Type="VI" URL="../App/Results/Read Acq Time.vi"/>
+			<Item Name="Write Acq Time.vi" Type="VI" URL="../App/Results/Write Acq Time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
