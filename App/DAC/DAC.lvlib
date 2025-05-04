@@ -13,9 +13,12 @@
 		<Item Name="DAC Heater Ctrl.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Ctrl/DAC Heater Ctrl.lvclass"/>
 	</Item>
 	<Item Name="DeepU" Type="Folder">
+		<Item Name="DAC Inverter.lvclass" Type="LVClass" URL="../DeepU/Inverter/DAC Inverter.lvclass"/>
+		<Item Name="DAC FTCU.lvclass" Type="LVClass" URL="../DeepU/FTCU/DAC FTCU.lvclass"/>
 		<Item Name="DAC TC Temperature.lvclass" Type="LVClass" URL="../DeepU/TC Temperature/DAC TC Temperature.lvclass"/>
 		<Item Name="DAC Keller Diff P 23X.lvclass" Type="LVClass" URL="../DeepU/Keller Diff P 23X/DAC Keller Diff P 23X.lvclass"/>
 		<Item Name="DAC Keller BNC.lvclass" Type="LVClass" URL="../DeepU/Keller BNC/DAC Keller BNC.lvclass"/>
+		<Item Name="DAC Jumo DP.lvclass" Type="LVClass" URL="../DeepU/Jumo DP/DAC Jumo DP.lvclass"/>
 		<Item Name="DAC CS Humid.lvclass" Type="LVClass" URL="../DeepU/CS Humid/DAC CS Humid.lvclass"/>
 	</Item>
 	<Item Name="HTS" Type="Folder">
