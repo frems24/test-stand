@@ -23,6 +23,7 @@
 	</Item>
 	<Item Name="Heat Flow" Type="Folder">
 		<Item Name="DAC HeatFlow AIV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AIV/DAC HeatFlow AIV.lvclass"/>
+		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
 		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
 		<Item Name="DAC RTD Temp.lvclass" Type="LVClass" URL="../Heat Flow/RTD Temp/DAC RTD Temp.lvclass"/>
 		<Item Name="DAC TEG Temp.lvclass" Type="LVClass" URL="../Heat Flow/TEG Temp/DAC TEG Temp.lvclass"/>
