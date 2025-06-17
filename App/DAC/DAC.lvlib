@@ -21,6 +21,13 @@
 		<Item Name="DAC Jumo DP.lvclass" Type="LVClass" URL="../DeepU/Jumo DP/DAC Jumo DP.lvclass"/>
 		<Item Name="DAC CS Humid.lvclass" Type="LVClass" URL="../DeepU/CS Humid/DAC CS Humid.lvclass"/>
 	</Item>
+	<Item Name="Heat Flow" Type="Folder">
+		<Item Name="DAC HeatFlow AIV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AIV/DAC HeatFlow AIV.lvclass"/>
+		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
+		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
+		<Item Name="DAC RTD Temp.lvclass" Type="LVClass" URL="../Heat Flow/RTD Temp/DAC RTD Temp.lvclass"/>
+		<Item Name="DAC TEG Temp.lvclass" Type="LVClass" URL="../Heat Flow/TEG Temp/DAC TEG Temp.lvclass"/>
+	</Item>
 	<Item Name="HTS" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
