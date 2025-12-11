@@ -5,12 +5,30 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Cryo Sep" Type="Folder">
+		<Item Name="DAC TC Temp CryoSep.lvclass" Type="LVClass" URL="../Cryo Sep/TC Temp CryoSep/DAC TC Temp CryoSep.lvclass"/>
+	</Item>
+	<Item Name="Heat Flow" Type="Folder">
+		<Item Name="DAC HeatFlow AIV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AIV/DAC HeatFlow AIV.lvclass"/>
+		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
+		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
+		<Item Name="DAC RTD Temp.lvclass" Type="LVClass" URL="../Heat Flow/RTD Temp/DAC RTD Temp.lvclass"/>
+		<Item Name="DAC TEG Temp.lvclass" Type="LVClass" URL="../Heat Flow/TEG Temp/DAC TEG Temp.lvclass"/>
+	</Item>
 	<Item Name="LNG Boiling" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DAC Shunt dU.lvclass" Type="LVClass" URL="../LNG Boiling/Shunt dU/DAC Shunt dU.lvclass"/>
 		<Item Name="DAC Heater Box Temperatures.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Box Temperatures/DAC Heater Box Temperatures.lvclass"/>
 		<Item Name="DAC Heater dU.lvclass" Type="LVClass" URL="../LNG Boiling/Heater dU/DAC Heater dU.lvclass"/>
 		<Item Name="DAC Heater Ctrl.lvclass" Type="LVClass" URL="../LNG Boiling/Heater Ctrl/DAC Heater Ctrl.lvclass"/>
+	</Item>
+	<Item Name="HTS" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
+		<Item Name="DAC DC Supply.lvclass" Type="LVClass" URL="../HTS/DC Supply/DAC DC Supply.lvclass"/>
+		<Item Name="DAC HTS dU.lvclass" Type="LVClass" URL="../HTS/HTS dU/DAC HTS dU.lvclass"/>
+		<Item Name="DAC Vacum Pressure.lvclass" Type="LVClass" URL="../HTS/Vacum Pressure/DAC Vacum Pressure.lvclass"/>
+		<Item Name="DAC LN2 Temp.lvclass" Type="LVClass" URL="../HTS/LN2 Temp/DAC LN2 Temp.lvclass"/>
 	</Item>
 	<Item Name="DeepU" Type="Folder">
 		<Item Name="DAC Inverter.lvclass" Type="LVClass" URL="../DeepU/Inverter/DAC Inverter.lvclass"/>
@@ -21,21 +39,6 @@
 		<Item Name="DAC Keller BNC.lvclass" Type="LVClass" URL="../DeepU/Keller BNC/DAC Keller BNC.lvclass"/>
 		<Item Name="DAC Jumo DP.lvclass" Type="LVClass" URL="../DeepU/Jumo DP/DAC Jumo DP.lvclass"/>
 		<Item Name="DAC CS Humid.lvclass" Type="LVClass" URL="../DeepU/CS Humid/DAC CS Humid.lvclass"/>
-	</Item>
-	<Item Name="Heat Flow" Type="Folder">
-		<Item Name="DAC HeatFlow AIV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AIV/DAC HeatFlow AIV.lvclass"/>
-		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
-		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
-		<Item Name="DAC RTD Temp.lvclass" Type="LVClass" URL="../Heat Flow/RTD Temp/DAC RTD Temp.lvclass"/>
-		<Item Name="DAC TEG Temp.lvclass" Type="LVClass" URL="../Heat Flow/TEG Temp/DAC TEG Temp.lvclass"/>
-	</Item>
-	<Item Name="HTS" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="DAC Vacum Valve.lvclass" Type="LVClass" URL="../HTS/Vacum Valve/DAC Vacum Valve.lvclass"/>
-		<Item Name="DAC DC Supply.lvclass" Type="LVClass" URL="../HTS/DC Supply/DAC DC Supply.lvclass"/>
-		<Item Name="DAC HTS dU.lvclass" Type="LVClass" URL="../HTS/HTS dU/DAC HTS dU.lvclass"/>
-		<Item Name="DAC Vacum Pressure.lvclass" Type="LVClass" URL="../HTS/Vacum Pressure/DAC Vacum Pressure.lvclass"/>
-		<Item Name="DAC LN2 Temp.lvclass" Type="LVClass" URL="../HTS/LN2 Temp/DAC LN2 Temp.lvclass"/>
 	</Item>
 	<Item Name="Water Tunnel" Type="Folder">
 		<Item Name="DAC Inclinometer.lvclass" Type="LVClass" URL="../Water Tunnel/Inclinometer/DAC Inclinometer.lvclass"/>
