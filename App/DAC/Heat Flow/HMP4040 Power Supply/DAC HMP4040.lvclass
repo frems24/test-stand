@@ -24,24 +24,6 @@
 	<Item Name="DAC HMP4040.ctl" Type="Class Private Data" URL="DAC HMP4040.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Read VISA res name.vi" Type="VI" URL="../Read VISA res name.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Y!.`````]!""E!A!!!!!!"!!1!!!!"!!!!!!!!!$*!=!!/"5FO=X2S!!%!"2E!A!!!!!!"!!1!!!!"!!!!!!!!$6:*5U%A=G6T)'ZB&lt;75!/E"Q!"Y!!"]*2%&amp;$,GRW&lt;'FC%U2"1S")46!U-$1Q,GRW9WRB=X-!%%2"1S"5=G&amp;W:8*T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"]*2%&amp;$,GRW&lt;'FC%U2"1S")46!U-$1Q,GRW9WRB=X-!$U2"1S"5=G&amp;W:8*T:3"J&lt;A"B!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-	</Item>
-	<Item Name="Configure Results Names.vi" Type="VI" URL="../Configure Results Names.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!@#52"1SZM&gt;GRJ9B.%15-A3%V1.$!U-#ZM&gt;G.M98.T!""%15-A6(*B&gt;G6S=W5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!/%"Q!"Y!!"]*2%&amp;$,GRW&lt;'FC%U2"1S")46!U-$1Q,GRW9WRB=X-!$U2"1S"5=G&amp;W:8*T:3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
-	</Item>
 	<Item Name="Load DAC Configuration.vi" Type="VI" URL="../Load DAC Configuration.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(M!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!&amp;A!"#W.P&lt;G:J:S"E982B!!:S:7:O&gt;7U!!&amp;=!]&lt;GGFI1!!!!#%5Z*8UR71W^O:GFH,GRW&lt;'FC&amp;E.P&lt;G:J:S"%982B)&amp;*F:EZV&lt;3ZD&gt;'Q!*E"Q!!%!!1!&amp;&amp;E.P&lt;G:J:S"';7RF)(*F:GZV&lt;3"P&gt;81!!$J!=!!?!!!@#52"1SZM&gt;GRJ9B.%15-A3%V1.$!U-#ZM&gt;G.M98.T!""%15-A6(*B&gt;G6S=W5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!61$RO;;7B!!!!!)24EF@4&amp;:$&lt;WZG;7=O&lt;(:M;7)71W^O:GFH)%2B&gt;'%A5G6G4H6N,G.U&lt;!!E1(!!!1!"!!561W^O:GFH)%:J&lt;'5A=G6G&lt;H6N)'FO!$B!=!!?!!!@#52"1SZM&gt;GRJ9B.%15-A3%V1.$!U-#ZM&gt;G.M98.T!!^%15-A6(*B&gt;G6S=W5A;7Y!6!$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!U+!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!*)!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
