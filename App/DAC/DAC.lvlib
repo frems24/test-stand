@@ -48,7 +48,6 @@
 	</Item>
 	<Item Name="Unused DACs" Type="Folder">
 		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Unused DACs/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
-		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
 	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
