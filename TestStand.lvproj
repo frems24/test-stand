@@ -103,6 +103,11 @@
 			<Item Name="Error Handler - Confirm Quit.vi" Type="VI" URL="../App/support/Error Handler - Confirm Quit.vi"/>
 			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../App/support/Set Enable State on Multiple Controls.vi"/>
 		</Item>
+		<Item Name="Utils" Type="Folder">
+			<Item Name="COM test.vi" Type="VI" URL="../Utils/COM test.vi"/>
+			<Item Name="FTCU LS_G100Test.vi" Type="VI" URL="../Utils/FTCU LS_G100Test.vi"/>
+			<Item Name="PD23X Test.vi" Type="VI" URL="../Utils/PD23X Test.vi"/>
+		</Item>
 		<Item Name="TS Framework.lvlib" Type="Library" URL="../App/TS Framework/TS Framework.lvlib"/>
 		<Item Name="Generic Test Stand.lvclass" Type="LVClass" URL="../App/Generic Test Stand/Generic Test Stand.lvclass"/>
 		<Item Name="Test Stands.lvlib" Type="Library" URL="../App/Test Stands/Test Stands.lvlib"/>
@@ -113,9 +118,6 @@
 		<Item Name="DAC Process.lvlib" Type="Library" URL="../App/DAC Process/DAC Process.lvlib"/>
 		<Item Name="Trig Process.lvlib" Type="Library" URL="../App/Trig Process/Trig Process.lvlib"/>
 		<Item Name="Run.vi" Type="VI" URL="../Run.vi"/>
-		<Item Name="Com7 test.vi" Type="VI" URL="../Com7 test.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-		<Item Name="PD23X Test.vi" Type="VI" URL="../PD23X Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
