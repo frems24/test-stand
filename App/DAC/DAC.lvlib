@@ -10,9 +10,7 @@
 	</Item>
 	<Item Name="Heat Flow" Type="Folder">
 		<Item Name="DAC HeatFlow AIV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AIV/DAC HeatFlow AIV.lvclass"/>
-		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
 		<Item Name="DAC HMP4040.lvclass" Type="LVClass" URL="../Heat Flow/HMP4040 Power Supply/DAC HMP4040.lvclass"/>
-		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
 		<Item Name="DAC RTD Temp.lvclass" Type="LVClass" URL="../Heat Flow/RTD Temp/DAC RTD Temp.lvclass"/>
 		<Item Name="DAC TEG Temp.lvclass" Type="LVClass" URL="../Heat Flow/TEG Temp/DAC TEG Temp.lvclass"/>
 	</Item>
@@ -47,6 +45,10 @@
 		<Item Name="DAC ADV.lvclass" Type="LVClass" URL="../Water Tunnel/ADV/DAC ADV.lvclass"/>
 		<Item Name="DAC Traverse.lvclass" Type="LVClass" URL="../Water Tunnel/Traverse/DAC Traverse.lvclass"/>
 		<Item Name="DAC Pump Inv.lvclass" Type="LVClass" URL="../Water Tunnel/Pump Inverter/DAC Pump Inv.lvclass"/>
+	</Item>
+	<Item Name="Unused DACs" Type="Folder">
+		<Item Name="DAC HeatFlow Load dU.lvclass" Type="LVClass" URL="../Unused DACs/HeatFlow Load dU/DAC HeatFlow Load dU.lvclass"/>
+		<Item Name="DAC HeatFlow AOV.lvclass" Type="LVClass" URL="../Heat Flow/HeatFlow AOV/DAC HeatFlow AOV.lvclass"/>
 	</Item>
 	<Item Name="DAC.lvclass" Type="LVClass" URL="../DAC.lvclass"/>
 </Library>
