@@ -84,15 +84,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="DAC Configure FP View.vi" Type="VI" URL="../DAC Configure FP View.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!I#52"1SZM&gt;GRJ9BR%15-A3'6B&gt;%:M&lt;X=A4'^B:#"E63ZM&gt;G.M98.T!!!92%&amp;$)%BF982'&lt;'^X)%RP971A:&amp;5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!3E"Q!"Y!!#A*2%&amp;$,GRW&lt;'FC(%2"1S"):7&amp;U2GRP&gt;S"-&lt;W&amp;E)'26,GRW9WRB=X-!!"&gt;%15-A3'6B&gt;%:M&lt;X=A4'^B:#"E63"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
-	</Item>
 	<Item Name="DAC Init Results.vi" Type="VI" URL="../DAC Init Results.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!=!!C$82E&lt;8-A:GFM:3"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"*!)1R-&lt;W=A2'6U97FM=T]!!""!=!!C#82E&lt;8-A:GFM:1"+1(!!(A!!+!F%15-O&lt;(:M;7)=2%&amp;$)%BF982'&lt;'^X)%RP971A:&amp;5O&lt;(:D&lt;'&amp;T=Q!!&amp;U2"1S"):7&amp;U2GRP&gt;S"-&lt;W&amp;E)'26)'FO!&amp;1!]!!-!!-!"!!&amp;!!1!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!.#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!%!!!!"!!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
